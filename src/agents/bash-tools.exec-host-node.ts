@@ -22,8 +22,8 @@ import {
 } from "../infra/shell-env.js";
 import { parsePreparedSystemRunPayload } from "../infra/system-run-approval-context.js";
 import { logInfo } from "../logger.js";
-import { sendExecApprovalFollowup } from "./bash-tools.exec-approval-followup.js";
 import { checkCommandSecurity } from "../security/command-security.js";
+import { sendExecApprovalFollowup } from "./bash-tools.exec-approval-followup.js";
 import {
   buildExecApprovalRequesterContext,
   buildExecApprovalTurnSourceContext,
